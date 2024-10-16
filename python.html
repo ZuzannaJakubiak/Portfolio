@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Zuzanna Jakubiak Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Portfolio</strong> <span>Zuzanna Jakubiak<span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<!--<li><a href="landing.html">About Me</a></li>-->
+						<!--<li><a href="#main">Projects</a></li>-->
+						<li><a href="#footer">Contact</a></li>
+				</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Python</h1>
+							</header>
+							<div class="content">
+								<p>These projects demonstrate my skills in utilizing Python for a variety of tasks, <br />
+								showcasing my ability to leverage different libraries based on project requirements.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Backpropagation</h2>
+									</header>
+									<p>In this project, I implemented the Backpropagation algorithm for a binary classification problem using Python. The project involved generating a synthetic dataset with three input variables to classify data points as either yellow or purple dots. I utilized libraries such as NumPy and Matplotlib for data manipulation and visualization.<br />
+
+										The model was built from scratch, featuring weight initialization, forward propagation, and cost function calculation. I applied various activation functions, including sigmoid and leaky ReLU, and implemented gradient descent to optimize the model parameters. The training process involved iterating over the dataset multiple times to minimize the loss and enhance accuracy.<br />
+										
+										Finally, I evaluated the model's performance by calculating its accuracy on both training and test data, visualizing the results to showcase the model's predictive capabilities.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/ZuzannaJakubiak/Python/tree/main/ANN%20-%20Backpropagation" target="_blank" class="button next">Explore the project on GitHub</a></li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>Next Day Market - Time Series Prediction</h2>
+									</header>
+									<p>In this project, I developed a neural network model to predict electricity prices on the Polish Next Day Market 24 hours in advance. The dataset comprised key features, including the target price per megawatt-hour (zł/MWh), trading volume, hour, and date.<br /> 
+										
+										I utilized libraries such as Pandas, NumPy, Matplotlib, Seaborn, and TensorFlow to preprocess the data, visualize trends, and build the neural network. The data was formatted and indexed by date and hour, allowing for effective time series analysis.<br />
+
+										The neural network architecture consisted of several dense layers, employing the ReLU activation function to enhance model performance. I compiled the model using the Adam optimizer and mean squared error loss function, training it over multiple epochs to minimize prediction errors.<br />
+										
+										After training, I evaluated the model's predictions against the actual values, visualizing the results to demonstrate the model's accuracy. Finally, the predicted values were saved for further analysis.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/ZuzannaJakubiak/Python/tree/main/ANN%20-%20Next%20Day%20Market" target="_blank" class="button next">Explore the project on GitHub</a></li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Cat or Dog? - Image Classification</h2>
+									</header>
+									<p>In this project, I developed a Convolutional Neural Network (CNN) model to classify images of cats and dogs. The dataset was organized into training, validation, and test sets.<br />
+
+										Key features included binary labels indicating whether an image contained a cat or a dog. I utilized libraries such as TensorFlow, NumPy, Matplotlib, and OpenCV for data preprocessing, visualization, and model development. Image augmentation and rescaling were applied to enhance the model's robustness.<br />
+										
+										The CNN architecture comprised multiple convolutional and max-pooling layers, using the ReLU activation function to improve feature extraction. The final layer employed a sigmoid activation for binary classification.<br />
+										
+										After training, I evaluated the model's accuracy on the validation set and generated predictions for the test dataset. The results were compiled into a submission file, and the training progress was visualized to demonstrate the model's learning effectiveness.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/ZuzannaJakubiak/Python/tree/main/ANN%20-%20Cat%20or%20Dog" target="_blank" class="button next">Explore the project on GitHub</a></li>
+									</ul>
+								</div>
+							</section>	
+
+						<!-- Three -->
+							<section id="four">
+								<div class="inner">
+									<header class="major">
+										<h2>Amazon Price Tracker - Webscrapping</h2>
+									</header>
+									<p>In this project, I developed a web scraper to track the price of a specific product on Amazon. Using the BeautifulSoup and Requests libraries, I extracted key information, including the product title and price, from the Amazon product page.<br />
+
+										The scraper sends a request to the specified URL, retrieves the HTML content, and parses it to extract the relevant data. The product title and price are then recorded along with the current date. I implemented functionality to append this data to a CSV file for ongoing tracking. <br />
+										
+										To automate the process, I set up a loop that checks the product price at regular intervals. The collected data can be analyzed later to observe price trends over time. </p>
+									<ul class="actions">
+										<li><a href="https://github.com/ZuzannaJakubiak/Python/tree/main/Amazon%20Price%20Tracker%20-%20webscrapping" target="_blank" class="button next">Explore the project on GitHub</a></li>
+									</ul>
+								</div>
+							</section>	
+					</div>
+
+					<p></p>
+				<!-- Footer -->
+				<footer id="footer">
+					<section class="split">
+						<div style="text-align: center;">
+							<section style="display: inline-block; width: 20%; vertical-align: top;">
+								<div class="contact-method">
+									<span class="icon solid alt fa-envelope"></span>
+									<h3>Email</h3>
+									<a href="mailto:zjakubiak20@gmail.com">zjakubiak20@gmail.com</a>
+								</div>
+							</section>
+							<section style="display: inline-block; width: 20%; vertical-align: top;">
+								<div class="contact-method">
+									<span class="icon solid alt fa-phone"></span>
+									<h3>Phone</h3>
+									<span>+48 883 275 036</span>
+								</div>
+							</section>
+							<section style="display: inline-block; width: 20%; vertical-align: top;">
+								<div class="contact-method">
+									<span class="icon solid alt fa-home"></span>
+									<h3>Location</h3>
+									<span>Sochaczew, Poland<br /></span>
+								</div>
+							</section>
+						</div>
+					</section>
+				</footer>
+
+				</div>
+	
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
